@@ -12,9 +12,11 @@ csv_path = "firm_message.csv"
 output_csv = "ndbg_data.csv"
 error_xlsx = "error.xlsx"
 date_range = '2000-01-01~2025-07-31'
-start, end = 2, 100  # change it by yourself (iy means the range of the "firm_message.csv" )
+# start, end = 2, 100  # change it by yourself (iy means the range of the "firm_message.csv" )
+start, end = 101, 400  # change it by yourself (iy means the range of the "firm_message.csv" )
 
-# === 请求设置 ===
+
+
 url = 'http://www.cninfo.com.cn/new/hisAnnouncement/query'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',

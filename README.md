@@ -19,3 +19,7 @@ The goal of this project is to:
 - Logs errors and missing data in `error.xlsx`
 - Outputs structured results into  `ndbg_data.csv`
 
+## Developers
+
+- Yan Cai
+- Zhou Mei (https://github.com/MGDLKP)
