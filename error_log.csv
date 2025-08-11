@@ -1,0 +1,9 @@
+﻿code,firm,year,pdf_url,error
+000001,平安银行,2005.0,http://static.cninfo.com.cn/finalpage/2006-04-01/16677480.PDF,"('Connection broken: IncompleteRead(0 bytes read, 568589 more expected)', IncompleteRead(0 bytes read, 568589 more expected))"
+000002,万  科Ａ,2013.0,http://static.cninfo.com.cn/finalpage/2014-03-07/63646582.PDF,"('Connection broken: IncompleteRead(524288 bytes read, 5500673 more expected)', IncompleteRead(524288 bytes read, 5500673 more expected))"
+000004,*ST 国农,2006.0,http://static.cninfo.com.cn/finalpage/2007-04-27/23110645.PDF,[WinError 123] 文件名、目录名或卷标语法不正确。: './ReportPDF\\000004-*ST 国农'
+000004,国农科技,2003.0,http://static.cninfo.com.cn/finalpage/2004-04-20/13942213.PDF,"HTTPConnectionPool(host='127.0.0.1', port=7890): Read timed out. (read timeout=15)"
+000006,深振业Ａ,2017.0,http://static.cninfo.com.cn/finalpage/2018-03-30/1204543200.PDF,"HTTPConnectionPool(host='127.0.0.1', port=7890): Read timed out."
+000006,深振业Ａ,2002.0,http://static.cninfo.com.cn/finalpage/2003-04-26/10644660.PDF,"HTTPConnectionPool(host='127.0.0.1', port=7890): Read timed out. (read timeout=15)"
+000007,*ST全新,2023.0,http://static.cninfo.com.cn/finalpage/2024-04-29/1219862517.PDF,[WinError 123] 文件名、目录名或卷标语法不正确。: './ReportPDF\\000007-*ST全新'
+000007,*ST全新,2021.0,http://static.cninfo.com.cn/finalpage/2022-04-30/1213265897.PDF,[WinError 123] 文件名、目录名或卷标语法不正确。: './ReportPDF\\000007-*ST全新'

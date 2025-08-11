@@ -12,9 +12,17 @@ csv_path = "firm_message.csv"
 output_csv = "ndbg_data.csv"
 error_xlsx = "error.xlsx"
 date_range = '2000-01-01~2025-07-31'
-# start, end = 2, 100  # change it by yourself (iy means the range of the "firm_message.csv" )
-start, end = 101, 400  # change it by yourself (iy means the range of the "firm_message.csv" )
+# start, end = 2, 100  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 101, 400  # change it by yourself (it means the range of the "firm_message.csv" )
 
+# start, end = 401, 500  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 501, 1000  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 1001, 3000  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 3001, 4500  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 4501, 4600  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 4601, 5000  # change it by yourself (it means the range of the "firm_message.csv" )
+# start, end = 5001, 5800  # change it by yourself (it means the range of the "firm_message.csv" )
+start, end = 5780, 5836  # change it by yourself (it means the range of the "firm_message.csv" )
 
 
 url = 'http://www.cninfo.com.cn/new/hisAnnouncement/query'
@@ -53,6 +61,7 @@ if not os.path.exists(error_xlsx):
     openpyxl.Workbook().save(error_xlsx)
 wb = openpyxl.load_workbook(error_xlsx)
 ws = wb.active
+
 
 if not os.path.exists(output_csv):
     with open(output_csv, 'w', encoding='utf-8', newline='') as f:
